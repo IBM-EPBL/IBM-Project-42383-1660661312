@@ -1,0 +1,12 @@
+import random, time, winsound
+
+
+while True:
+    temp = random(1,100)
+    if temp > 60:
+        print("Alert Temperature is high!!")
+        windsound.playsound("beep-01a.wav", winsound.SND_FILENAME)
+    else:
+        print("Temperature s Normal")
+
+   time.sleep(1)
